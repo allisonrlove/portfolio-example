@@ -30,7 +30,7 @@ STEP 1: DEFINE YOUR COLOR PALETTE
   First, pick your colors and give them descriptive names.
   Use a color picker tool to get hex codes: https://coolors.co/
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&display=swap');
 :root {
   /* ===== Your Color Palette ===== */
   /* Replace these colors with your own preferences */
@@ -75,9 +75,10 @@ STEP 1: DEFINE YOUR COLOR PALETTE
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
   */
 
-  /* --font-heading: 'Roboto', sans-serif; */
-  /* --font-body: 'Open Sans', sans-serif; */
-  /* --font-mono: 'Courier New', monospace; */
+   /* ===== Typography ===== */
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-mono: 'Courier New', monospace;
 }
 
 
