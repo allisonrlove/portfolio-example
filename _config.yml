@@ -1,0 +1,33 @@
+# ----------------------------------------------------------------------------
+# REQUIRED: Update these fields before publishing your site
+# ----------------------------------------------------------------------------
+title: Your Name              # appears in browser tab and header
+author: Your Name             # your name (used in meta tags)
+description: A short description of your portfolio site.
+baseurl: "/portfolio-template"  # your repository name, with a leading slash.
+                                # Leave empty if the repo is USERNAME.github.io.
+                                # You do not need a url line — GitHub supplies it.
+
+# ----------------------------------------------------------------------------
+# OPTIONAL
+# ----------------------------------------------------------------------------
+analytics_id:   # paste your Google Analytics measurement ID (G-XXXXXXXXXX)
+search: true    # set to false to disable site search
+
+# ----------------------------------------------------------------------------
+# Files kept out of the published site. The first two are guidance for AI
+# assistants; the rest are Jekyll's own defaults, which this list replaces.
+# ----------------------------------------------------------------------------
+exclude:
+  - AGENTS.md
+  - CLAUDE.md
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
